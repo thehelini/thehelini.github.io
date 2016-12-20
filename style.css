@@ -1,0 +1,32 @@
+/* all */
+a {
+  color: black;
+}
+
+.sidebar {
+  float: right
+}
+
+.about, .contact, .sidebar, .title {
+  font-family: "Droid Sans Mono";
+  color: black;
+}
+
+html {
+  background-color: #FFE3D3;
+}
+
+/* title page */
+.title {
+  text-align: center;
+}
+
+.spacer {
+  height: 30vh;
+}
+
+/* about */
+#text {
+  width: 22vw;
+  float: left;
+}
