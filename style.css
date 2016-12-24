@@ -1,32 +1,45 @@
 /* all */
+* {
+  box-sizing: border-box;
+  background-color: #FFE3D3;
+}
+
 a {
   color: black;
 }
 
 .sidebar {
-  float: right
+  float: right;
 }
 
-.about, .contact, .sidebar, .title {
+li {
+  display: inline-block;
+}
+
+.about, .contact, .sidebar, .title, .projects {
   font-family: "Droid Sans Mono";
   color: black;
-}
-
-html {
-  background-color: #FFE3D3;
 }
 
 /* title page */
 .title {
   text-align: center;
+  margin-top: 29vh;
 }
 
-.spacer {
-  height: 30vh;
-}
-
-/* about */
-#text {
+/* about/contact/projects */
+#hello, #info, #proj {
   width: 22vw;
   float: left;
+}
+
+.text {
+  background: transparent;
+}
+
+/* js */
+.borderClass {
+  border-style: dotted;
+  border-width: 3px;
+  border-color: white;
 }
