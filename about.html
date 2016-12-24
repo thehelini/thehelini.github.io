@@ -2,30 +2,30 @@
 <html>
 
   <head>
-
     <link href="./style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" type="text/css" rel="stylesheet">
-
     <title> about | zucchini </title>
-
   </head>
 
   <body>
-
     <div class="sidebar">
-      <a href="./index.html"> home</a>
-      <a href="./about.html"> about</a>
-      <a href="./resume.pdf"> resume</a>
-      <a href="./contact.html"> contact</a>
+      <ul>
+        <li><a href="./index.html"> home</a></li>
+        <li><a href="./about.html"> about</a></li>
+        <li><a href="./projects.html"> projects</a></li>
+        <li><a href="./resume.pdf" target="_blank"> resume</a></li>
+        <li><a href="./contact.html"> contact</a></li>
+      </ul>
     </div>
 
     <div class="about">
-      <div id="text">
-        <h1> hello! </h1>
-        <p> my name is helena but people call me zucchini!
+      <div id="hello">
+        <h1 class="text"> hello! </h1>
+        <p class="text"> my name is helena but people call me zucchini!
         </br>
-        </br> i study math at the <a href="http://www.berkeley.edu/" target="_blank"> University of California Berkeley</a>.
-            why math? i mean infinites, paradoxes, logic, proofs??! <strong> math is fucking beautiful. </strong>
+        </br> i study math at the <a href="http://www.berkeley.edu/" target="_blank">
+          University of California Berkeley</a>. why math? i mean infinites, paradoxes,
+          logic, proofs??! <strong> math is fucking beautiful. </strong>
         </br>
         </br> other things i am passionate about:
         </br> philosophy
@@ -37,6 +37,10 @@
         </p>
       </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="aboutProjects.js"></script>
 
   </body>
 
