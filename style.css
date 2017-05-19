@@ -33,6 +33,13 @@ li {
   float: left;
 }
 
+#list {
+  width: 22vw;
+  margin-top: 1vh;
+  margin-left: 28vw;
+  position: absolute;
+}
+
 .text {
   background: transparent;
 }
