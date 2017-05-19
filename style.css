@@ -35,9 +35,9 @@ li {
 
 #list {
   width: 22vw;
-  margin-top: 1vh;
-  margin-left: 28vw;
-  position: absolute;
+  margin-left: 26vw;
+  position: relative;
+  top: 4vh;
 }
 
 .text {
