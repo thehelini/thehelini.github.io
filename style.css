@@ -97,8 +97,9 @@ li {
 .sidebar,
 .title,
 .thoughts,
-.projects {
-	color: black;
+.projects,
+a {
+	color: #192299;
 	font-family: "Droid Sans Mono";
 }
 
@@ -106,7 +107,12 @@ li {
 	background: transparent;
 }
 
-html,body { height: 100%; margin: 0px; padding: 0px; }
+html,
+body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
 
 /* title page */
 .title {
@@ -122,7 +128,7 @@ html,body { height: 100%; margin: 0px; padding: 0px; }
 .link
  {
 	background: transparent;
-	color: white;
+	color: #f1ff63;
 }
 
 /* about/contact/projects/thoughts */
@@ -142,5 +148,5 @@ html,body { height: 100%; margin: 0px; padding: 0px; }
 
 /* js */
 .borderClass {
-  border: 3px dotted white;
+  border: 3px dotted #f1ff63;
 }
