@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <link href="./style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" type="text/css" rel="stylesheet">
     <title> zucchini li </title>
   </head>
-
   <body>
-
+    <style>
+    body {
+    background-image: url("./pictures/main.jpg");
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    }
+    </style>
     <div class="cf">
       <ul class="sidebar">
-        <li><a href="./index.html"> home</a></li>
-        <li><a href="./about.html"> about</a></li>
-        <li><a href="./thoughts.html"> thoughts</a></li>
-        <li><a href="./projects.html"> projects</a></li>
-        <li><a href="./resume.pdf" target="_blank"> resume</a></li>
-        <li><a href="./contact.html"> contact</a></li>
+        <li class="maintext"><a href="./index.html" class="link"> home</a></li>
+        <li class="maintext"><a href="./about.html" class="link"> about</a></li>
+        <li class="maintext"><a href="./thoughts.html" class="link"> thoughts</a></li>
+        <li class="maintext"><a href="./projects.html" class="link"> projects</a></li>
+        <li class="maintext"><a href="./resume.pdf" target="_blank" class="link"> resume</a></li>
+        <li class="maintext"><a href="./contact.html" class="link"> contact</a></li>
       </ul>
     </div>
     <!-- breaks separate title class from the sidebar class -->
       </br>
       </br>
-
     <div class="title">
-      <h1>zucchini li </h1>
-      <a href="./about.html"><p> life of a fruit </p><a>
+      <h1 class="maintext">zucchini li </h1>
+      <a href="./about.html" class="link"><p class="maintext"> life of a fruit </p><a>
     </div>
-
   </body>
-
 </html>

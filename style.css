@@ -106,10 +106,23 @@ li {
 	background: transparent;
 }
 
+html,body { height: 100%; margin: 0px; padding: 0px; }
+
 /* title page */
 .title {
   margin-top: 25vh;
   text-align: center;
+	background: transparent;
+	color: white;
+}
+
+.cf,
+.sidebar,
+.maintext,
+.link
+ {
+	background: transparent;
+	color: white;
 }
 
 /* about/contact/projects/thoughts */
