@@ -30,7 +30,7 @@ function drag() {
   };
 };
 function generateRandom() {
-    var num = Math.floor(Math.random()*60);
+    var num = Math.floor(Math.random()*70);
     return num;
 };
 //randomizes how the boxes appear
