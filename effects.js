@@ -16,12 +16,16 @@ $(".box").mouseover(function addBorder() {
 $(".box").mouseout(function removeBorder() {
     $(this).removeClass("borderClass");
 });
+
+$(".box").draggable();
+
 //puts thought boxes in array
 var divArray = [];
 var highestIndex = 0;
 $(".box").each(function () {
     divArray.push($(this));
 });
+
 function drag() {
     for (var i = 0; i<divArray.length; i++) {
       divArray[i].draggable({
@@ -29,11 +33,20 @@ function drag() {
         distance: 0});
   };
 };
+
 function generateRandom() {
     var num = Math.floor(Math.random()*70);
     return num;
 };
+
 //randomizes how the boxes appear
+function displayRandom() {
+    for (var i = 0; i < divArray.length; i++){
+      var index = Math.floor(Math.random()*divArray.length+1);
+      divArray[i].insertBefore(divArray[index]);
+    };
+  };
+
 function randomnize() {
     for (var i = 0; i < divArray.length; i++){
       var left = generateRandom();
@@ -48,5 +61,4 @@ function randomnize() {
   };
 };
 
-$(document).ready(randomnize);
-$(document).ready(drag);
+$(document).ready(displayRandom);
