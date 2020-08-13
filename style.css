@@ -96,7 +96,7 @@ li {
 .contact,
 .sidebar,
 .title,
-.thoughts,
+.stuff,
 .projects,
 a {
 	color: #192299;
@@ -131,11 +131,11 @@ body {
 	color: #f1ff63;
 }
 
-/* about/contact/projects/thoughts */
+/* about/contact/projects/stuff */
 .about,
 .contact,
 .projects,
-.thoughts {
+.stuff {
   display: inline-block;
   margin: 0vh .9vw;
 }
